@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Cupcake Fundraiser</h1>
-    <form>
+    <form method = "post" action ="process.php">
         <label>Your Name:</label><br>
         <input type="textbox" value="name"><br>
         <label>Cupcake flavors</label><br>
