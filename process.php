@@ -12,15 +12,20 @@
     $username = $_POST['name'];
     $flavor = $_POST['flavor'];
     $price = 3.50 * sizeof($flavor);
-
+if(empty($username) & empty($flavor)){
+    echo"Please enter a name!";
+}else if(empty($flavor)) {
+    echo"PLease select a flavor";
+    }
+else{
     echo "<h1>Thank you, $username  , for your order!</h1>";
     echo "<h1>Order Summary:</h1>";
 
-            foreach ($flavor as $selected) {
-                echo "<li>" . $selected . "</br>";
-            }
-                echo "<h1>Order total: $price</h1>" ;
-
+    foreach ($flavor as $selected) {
+        echo "<li>" . $selected . "</br>";
+    }
+    echo "<h1>Order total: $price</h1>";
+}
 ?>
 
 </body>
