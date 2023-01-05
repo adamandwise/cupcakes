@@ -1,3 +1,13 @@
+<!--
+Adam Wise
+Bao Huynh
+1-5-2023
+https://adamthewise.greenriverdev.com/328/cupcakes/index.php?
+
+a cupcake order summary with flavor selection, also calculates the total price
+-->
+
+
 <!doctype html>
 <html lang="en">
 <head>
